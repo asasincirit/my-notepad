@@ -44,7 +44,7 @@ android.archs = arm64-v8a
 # مجوزهای مورد نیاز
 android.permissions = READ_MEDIA_IMAGES,READ_MEDIA_VIDEO
 
-
+android.accept_sdk_license = True
 # ----------------------------------------
 # ظاهر برنامه
 # ----------------------------------------

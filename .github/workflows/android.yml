@@ -22,11 +22,6 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v4
-        with:
-          packages: "platform-tools build-tools;35.0.0 platforms;android-35"
-
       - name: Install dependencies
         run: |
           sudo apt-get update
